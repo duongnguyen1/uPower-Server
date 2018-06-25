@@ -2,6 +2,15 @@
  
 import socket   #for sockets
 import sys  #for exit
+
+msg_request_station = '{"STATION":"?"}'
+msg_request_list_devices = '{"LIST":"?"}'
+msg_check_dev_busy = '{"CHECK":{"SN":"XXXXXXX?"}}'
+
+msg_set_output = '{"SET":{"SN":"XXXXXXX","VBAT":0,"OUTPUT":0}}'
+msg_set_measure = '{"MEASURE":{"SN":"XXXXXXX","DURATION":0}}'
+msg_get_measure = '{"GET":{"MEASURE":{"SN":"XXXXXXX"}}}'
+
  
 #create an INET, STREAMing socket
 try:
