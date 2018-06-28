@@ -22,16 +22,22 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Check_device_is_busy_set_command.vi" Type="VI" URL="../Process input/Check_device_is_busy_set_command.vi"/>
+		<Item Name="Check_duration.vi" Type="VI" URL="../Main_process/Check_duration.vi"/>
 		<Item Name="Check_one_device_is_busy.vi" Type="VI" URL="../Process input/Check_one_device_is_busy.vi"/>
 		<Item Name="COMMAND DATA.ctl" Type="VI" URL="../Share Data/COMMAND DATA.ctl"/>
 		<Item Name="DAQ_PW_Calibration.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Calibration.vi"/>
+		<Item Name="DAQ_PW_Read_Vdut_Vsource.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Read_Vdut_Vsource.vi"/>
+		<Item Name="DAQ_PW_Read_Vsource_Update_to_DEV_Global.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Read_Vsource_Update_to_DEV_Global.vi"/>
 		<Item Name="DAQ_PW_RECORD_5000SP_calibrated.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_RECORD_5000SP_calibrated.vi"/>
+		<Item Name="DAQ_PW_Release_Dev.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Release_Dev.vi"/>
 		<Item Name="DAQ_PW_SET_RANGE_UA_MA.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_SET_RANGE_UA_MA.vi"/>
 		<Item Name="DEV SN To DAQmx Device Name.vi" Type="VI" URL="../Main_process/DEV SN To DAQmx Device Name.vi"/>
 		<Item Name="Get_Dev_SN.vi" Type="VI" URL="../Main_process/Get_Dev_SN.vi"/>
 		<Item Name="Init_USB_DEV_SN_To_Global.vi" Type="VI" URL="../Main_process/Init_USB_DEV_SN_To_Global.vi"/>
+		<Item Name="Init_Values_for_power_kit_on Global.vi" Type="VI" URL="../Main_process/Init_Values_for_power_kit_on Global.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Measurement.vi" Type="VI" URL="../Measurement.vi"/>
+		<Item Name="Paser_Json_dev_to_cluster.vi" Type="VI" URL="../Main_process/Paser_Json_dev_to_cluster.vi"/>
 		<Item Name="ProducerConsumerEvents.vi" Type="VI" URL="../ProducerConsumerEvents.vi"/>
 		<Item Name="PW" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
@@ -161,6 +167,7 @@
 			</Item>
 		</Item>
 		<Item Name="remove_special_char_from_json.vi" Type="VI" URL="../Webservice/remove_special_char_from_json.vi"/>
+		<Item Name="Return_Last_Result_To_Webservice.vi" Type="VI" URL="../Main_process/Return_Last_Result_To_Webservice.vi"/>
 		<Item Name="SET_DEVICE_MEASURE_TO_GLOBAL.vi" Type="VI" URL="../Process input/SET_DEVICE_MEASURE_TO_GLOBAL.vi"/>
 		<Item Name="SET_DEVICE_OUTPUT_VBAT_TO_GLOBAL.vi" Type="VI" URL="../Process input/SET_DEVICE_OUTPUT_VBAT_TO_GLOBAL.vi"/>
 		<Item Name="SET_DEVICE_SET_DURATION_TO_GLOBAL.vi" Type="VI" URL="../Process input/SET_DEVICE_SET_DURATION_TO_GLOBAL.vi"/>
