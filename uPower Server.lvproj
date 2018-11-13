@@ -30,6 +30,7 @@
 		<Item Name="DAQ_PW_Initial_before_Stream.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Initial_before_Stream.vi"/>
 		<Item Name="DAQ_PW_Read_Vdut_Vsource.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Read_Vdut_Vsource.vi"/>
 		<Item Name="DAQ_PW_Read_Vsource_Update_to_DEV_Global.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Read_Vsource_Update_to_DEV_Global.vi"/>
+		<Item Name="DAQ_PW_RECORD_5000SP_calibrated.vi" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Server/Main_process/DAQ_PW/DAQ_PW_RECORD_5000SP_calibrated.vi"/>
 		<Item Name="DAQ_PW_RECORD_5000SP_calibrated.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_RECORD_5000SP_calibrated.vi"/>
 		<Item Name="DAQ_PW_Release_Dev.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Release_Dev.vi"/>
 		<Item Name="DAQ_PW_Set_check_Vbat.vi" Type="VI" URL="../Main_process/DAQ_PW/DAQ_PW_Set_check_Vbat.vi"/>
@@ -456,19 +457,25 @@
 			</Item>
 			<Item Name="COMMAND DATA.vi" Type="VI" URL="../Share Data/COMMAND DATA.vi"/>
 			<Item Name="DAQ_mx_init_uP.vi" Type="VI" URL="../../uPower-Kit2/DAQ_mx_init_uP.vi"/>
+			<Item Name="DAQ_PW_Calibration.vi" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Server/Main_process/DAQ_PW/DAQ_PW_Calibration.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Kit2/Range_Shunt_selector.ctl"/>
+			<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../../uPower-Kit2/Range_Shunt_selector.ctl"/>
 			<Item Name="TCP Multiple Connections Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2015/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections Data.ctl"/>
 			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2015/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
 			<Item Name="uA__daq_Set_Power_supply_for_DUT.vi" Type="VI" URL="../../uPower-Kit2/uA__daq_Set_Power_supply_for_DUT.vi"/>
+			<Item Name="uA_daq_gain_caculator.vi" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Kit2/uA_daq_gain_caculator.vi"/>
+			<Item Name="uA_daq_gain_caculator.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_gain_caculator.vi"/>
 			<Item Name="uA_daq_Initial_Aquire_mode.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Initial_Aquire_mode.vi"/>
 			<Item Name="uA_daq_Read_Battery_Voltage.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Read_Battery_Voltage.vi"/>
 			<Item Name="uA_daq_Read_DUT_Voltage.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Read_DUT_Voltage.vi"/>
 			<Item Name="uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi"/>
 			<Item Name="uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi"/>
 			<Item Name="uA_daq_Set_uA_mA_Current_Range.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Set_uA_mA_Current_Range.vi"/>
+			<Item Name="WDT Append Waveforms SGL.vi" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Kit2/WDT Append Waveforms SGL.vi"/>
 			<Item Name="WDT Append Waveforms SGL.vi" Type="VI" URL="../../uPower-Kit2/WDT Append Waveforms SGL.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
