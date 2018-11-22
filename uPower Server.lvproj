@@ -470,6 +470,7 @@
 			<Item Name="uA_daq_gain_caculator.vi" Type="VI" URL="//Mac/AllFiles/Users/nguyenduong/Downloads/Git_MAC/uPower-Kit2/uA_daq_gain_caculator.vi"/>
 			<Item Name="uA_daq_gain_caculator.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_gain_caculator.vi"/>
 			<Item Name="uA_daq_Initial_Aquire_mode.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Initial_Aquire_mode.vi"/>
+			<Item Name="uA_daq_Re_Init_daq_follow_input.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Re_Init_daq_follow_input.vi"/>
 			<Item Name="uA_daq_Read_Battery_Voltage.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Read_Battery_Voltage.vi"/>
 			<Item Name="uA_daq_Read_DUT_Voltage.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Read_DUT_Voltage.vi"/>
 			<Item Name="uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi" Type="VI" URL="../../uPower-Kit2/uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi"/>
