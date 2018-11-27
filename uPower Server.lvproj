@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="varPersistentID:{131B5EC1-C48D-493A-BC97-F82334F9968A}" Type="Ref">/My Computer/Share Variable.lvlib/USB_DEV4</Property>
 	<Property Name="varPersistentID:{63DDCCFB-35C9-4B2B-9903-459DC7B29091}" Type="Ref">/My Computer/Share Variable.lvlib/USB_DEV2</Property>
+	<Property Name="varPersistentID:{85997DA0-ED7C-4F17-B7E5-BE7EC189D67E}" Type="Ref">/My Computer/Share Variable.lvlib/USB_DEV3</Property>
 	<Property Name="varPersistentID:{E2C42CA2-A662-4A55-9DD9-7CC248B18CDB}" Type="Ref">/My Computer/Share Variable.lvlib/USB_DEV1</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -47,7 +49,7 @@
 		<Item Name="ProducerConsumerEvents.vi" Type="VI" URL="../ProducerConsumerEvents.vi"/>
 		<Item Name="PW" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">29</Property>
+			<Property Name="Bld_version.build" Type="Int">31</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -59,7 +61,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">20</Property>
+			<Property Name="ws.version.build" Type="Int">21</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -499,7 +501,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{876529ED-E57D-470A-AABA-C0009271AFBC}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
